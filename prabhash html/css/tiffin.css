@@ -1,0 +1,244 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Krona One', sans-serif;
+    
+}
+header{
+    width:100%;
+    height:130vh;
+    background-image:url('1.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+   
+}
+nav{
+    margin-left: 0.2%;
+    width:100%;
+    height: 15vh;
+    background:rgba(0,0,0,0.1);
+    color:purple;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    text-transform:uppercase;
+    text-shadow: -10px 1px 10px red;
+    font-weight: bolder;
+    font-size: 30px;
+}
+    nav .logo h1
+    {
+        display: flex;
+        justify-content: space-around;
+        width:120%;
+       font-weight: bolder;
+       text-align: center;
+     color:purple;
+    
+    }
+nav .menu{
+    width:40%;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+
+}
+nav .menu a{
+    width:25%;
+    text-decoration:none;color:purple;
+    font-weight: bolder;
+}
+
+main{
+    width: 100%;
+    height:70vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    color:rgb(66, 4, 63);
+}
+section h1{
+    font-size: 40px; font-weight: 500; letter-spacing: 3px;
+    text-shadow: 4px 2px 5px black;
+    color:rgb(55, 21, 63);
+    font-weight: bolder;
+
+}
+section h2{
+    margin: 30px 0 20px 0;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 2px 1px 3px black;
+    text-transform: uppercase;
+    align-items: center;
+    letter-spacing: 3px;
+}
+section h3 {
+    margin: 30px 0 20px 0;
+    font-size :35px;
+    font-weight: bolder;
+    position: absolute;
+    top:90%;
+    left:35%;
+    color: rgb(50, 18, 58);
+    text-shadow: 2px 1px 3px blue;
+    text-transform: uppercase;
+    align-items: center;
+    letter-spacing: 3px;
+}
+section a{
+    padding: 12px 30px;
+    border-radius:4px;
+    outline:none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.change_content:after{
+    content:'';
+    animation: changetext 9s infinite linear;
+    color: red ;
+    text-shadow: 5px 4px 4px BLACK;
+
+    font-size: 50px;
+    font-weight:bolder;
+} 
+
+
+@keyframes changetext{
+0%{content:"ABOUT";}
+10%{content:"PRICES";}
+30%{content:"VEG. MENU";}
+50%{content:"NON-VEG. MENU ";}
+70%{content:"CONTACT"}
+
+} 
+   
+      hiv h1{
+        font-size: 30px;
+        
+      }
+      div h1{
+        font-size: 40px;
+      }
+      p{
+        
+        color:red;
+    
+      }
+      biv{
+        margin: 0;
+        height: 210vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: -4%;
+        left: 44.8%;
+        font-size:30px ;
+        font-weight: bolder;
+        border-radius:10px;
+        padding: -2px 20px;
+    
+    
+    }
+    
+    biv h1 {
+        font-size:30px;
+        text-decoration-color: rgb(230, 230, 235);
+        position: absolute;
+        top:60%;
+        font-weight: bolder;
+        color: blue;
+        text-shadow: 5px 4px 2px solid red;
+    }
+    biv {
+        list-style-type: none;
+        margin: 0;
+        
+    
+    }
+    
+    biv li {
+     --c:red;
+        color: rgb(12, 9, 36);
+        padding: 0px 10px;
+        position: absolute;
+        top: 10%;
+        left: -7.5%;
+        font-size: 20px;
+        border: 0.3em solid var(blue);
+        border-radius: 0.8em;
+        width: 12em;
+        height: 3em;
+        list-style-type: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: sans-serif;
+        letter-spacing: 0.1em;
+        text-align: center;
+        line-height: 3em;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        transition: 0.5s;
+        margin: 1em;
+       
+    }
+    
+    biv li span {
+        position: absolute;
+        width: 25%;
+        height: 100%;
+        background-color:red;
+        transform: translateY(150%);
+        border-radius: 50%;
+        left: calc((var(--n) - 1) * 25%);
+        transition: 0.5s;
+        transition-delay: calc((var(--n) - 1) * 0.1s);
+        z-index: -1;
+    }
+    
+    biv li:hover {
+        color:white;
+    }
+    
+    biv li:hover span {
+        transform: translateY(0) scale(2);
+    }
+    
+    biv li span:nth-child(1) {
+        --n: 1;
+    }
+    
+    biv li span:nth-child(2) {
+        --n: 2;
+    }
+    
+    biv li span:nth-child(3) {
+        --n: 3;
+    }
+    
+    biv li span:nth-child(4) {
+        --n: 4;
+    }
+    biv li span:nth-child(5) {
+        --n: 5;
+    }
+    biv li span:nth-child(6) {
+        --n: 6;
+    }
+    biv h1{
+        font-size: 30px;
+        font-weight: bolder;
+        position: absolute;
+        top: 49%;
+        left: -10% ;
+
+
+    }
